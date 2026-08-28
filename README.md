@@ -25,14 +25,19 @@ files are numbered to reflect the paper's logical reading order:
 
 ## Figures
 
-Submission-ready figures live in [`figures/`](figures/):
+All manuscript figures live in [`figures/`](figures/), each with a
+companion analysis `.md` — see [`figures/README.md`](figures/README.md)
+for the full index, including two data-consistency issues found during
+review (an unreconciled n=44 vs. n=50 event cohort across two figures,
+and a duplicate architecture figure).
 
-- [`SSIF_Architecture.pdf`](figures/SSIF_Architecture.pdf) — vector figure, for LaTeX/print submission
-- [`SSIF_Architecture.png`](figures/SSIF_Architecture.png) — high-resolution raster (~350 dpi), for Word-based submission systems
-- [`SSIF_Architecture_caption.txt`](figures/SSIF_Architecture_caption.txt) — suggested figure caption
-- [`SSIF_Architecture_source.html`](figures/SSIF_Architecture_source.html) — editable source (open in a browser, or re-render with headless Chromium)
-
-The figure illustrates the model architecture described in
+The submission-ready architecture figure
+([`SSIF_Architecture.pdf`](figures/SSIF_Architecture.pdf) /
+[`.png`](figures/SSIF_Architecture.png), source in
+[`SSIF_Architecture_source.html`](figures/SSIF_Architecture_source.html),
+caption in
+[`SSIF_Architecture_caption.txt`](figures/SSIF_Architecture_caption.txt))
+illustrates the model architecture described in
 [04_submit_Model_Architecture_and_Input_Representation.md](04_submit_Model_Architecture_and_Input_Representation.md):
 input representation, convolutional stem, positional embedding, the masked
 Transformer encoder, masked mean-pooling, and the two multitask output heads.
