@@ -20,8 +20,8 @@ pre-norm、含遮罩的多頭自注意力、前饋層、殘差弧線、遮罩注
 ## 對應章節
 
 直接根據
-[`04_submit_Model_Architecture_and_Input_Representation.md`](../04_submit_Model_Architecture_and_Input_Representation.md)
-繪製。建議圖說文字在
+[`03_submit_Method.md`](../03_submit_Method.md)
+中「模型架構與輸入表示法」子章節繪製。建議圖說文字在
 [`SSIF_Architecture_caption.txt`](SSIF_Architecture_caption.txt)。
 
 ## 檔案說明
@@ -37,6 +37,6 @@ pre-norm、含遮罩的多頭自注意力、前饋層、殘差弧線、遮罩注
 
 ## 建議放置位置
 
-方法（Method）章節（04_），作為主要架構圖——這是投稿就緒版本；除非需要
+方法（Method）章節（03_），作為主要架構圖——這是投稿就緒版本；除非需要
 以視覺方式（而非文字）呈現損失權重，否則建議優先使用此圖，而非
 `fig_ssif_architecture.png`。

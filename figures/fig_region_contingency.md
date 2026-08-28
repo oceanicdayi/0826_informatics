@@ -25,11 +25,10 @@ labeled in every bar.)
 ## Cross-reference
 
 These exact figures (34/39 at 10 s, perfect POD from 20 s, perfect
-precision+POD from 25 s onward) match
-[`10_submit_Region_Based_Detection_and_Complementarity.md`](../10_submit_Region_Based_Detection_and_Complementarity.md)
-line for line, and the "39 region-positive / 11 region-negative" split
-matches the same file and
-[`11_submit_Complementary_Failure_Modes_and_Generalization.md`](../11_submit_Complementary_Failure_Modes_and_Generalization.md).
+precision+POD from 25 s onward) and the "39 region-positive / 11
+region-negative" split match the "Region-Based Detection and eBEAR
+Complementarity" subsection of
+[`05_submit_Results.md`](../05_submit_Results.md) line for line.
 
 ## Observations
 
@@ -38,8 +37,8 @@ matches the same file and
   "detects everything but over-triggers on 3 borderline regions"
   (EW20), before both errors vanish from EW25 onward. This is the
   precision dip mentioned qualitatively in
-  [`13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md`](../13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md)
-  as the operational-window trade-off.
+  [`06_submit_Discussion.md`](../06_submit_Discussion.md) as the
+  operational-window trade-off.
 - **n=50 here vs. n=44 in `fig_alert_timeline.png` / `fig_detection_categories.png`**
   — see the note in
   [`fig_detection_categories.md`](fig_detection_categories.md) for the
@@ -47,8 +46,7 @@ matches the same file and
 
 ## Suggested manuscript placement
 
-Results section — pairs with
-[`10_submit_Region_Based_Detection_and_Complementarity.md`](../10_submit_Region_Based_Detection_and_Complementarity.md)
-as its primary supporting figure.
+Results section (05_) — pairs with its "Region-Based Detection and eBEAR
+Complementarity" subsection as its primary supporting figure.
 
 > 中文版: [fig_region_contingency.zh-TW.md](fig_region_contingency.zh-TW.md)
