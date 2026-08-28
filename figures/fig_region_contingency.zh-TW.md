@@ -24,7 +24,7 @@
 
 這些數字（10 秒時 34/39、20 秒起 POD 達 1.000、25 秒起精確率與 POD 皆
 達 1.000）以及「39 個區域正例／11 個區域負例」都與
-[`06_submit_Results.md`](../06_submit_Results.md) 中「區域式偵測與
+[`07_submit_Results.md`](../07_submit_Results.md) 中「區域式偵測與
 eBEAR 互補性」子章節逐項吻合。
 
 ## 觀察重點
@@ -32,7 +32,7 @@ eBEAR 互補性」子章節逐項吻合。
 - EW20 是唯一出現誤報（FP=3）而非漏報的時窗——SSIF 在此時窗從「仍漏掉
   0 個事件」（EW15：FN=2）轉為「偵測到全部事件，但對 3 個邊界區域過度
   觸發」（EW20），之後從 EW25 起兩種錯誤都消失。這正是
-  [`08_submit_Discussion.md`](../08_submit_Discussion.md)
+  [`09_submit_Discussion.md`](../09_submit_Discussion.md)
   中定性描述的精確率下滑、屬於作業時窗取捨的一環。
 - **此圖 n=50，而 `fig_alert_timeline.png` 與
   `fig_detection_categories.png` 用的是 n=44**——群組大小不一致的
@@ -40,5 +40,5 @@ eBEAR 互補性」子章節逐項吻合。
 
 ## 建議放置位置
 
-Results 章節（06_）——作為「區域式偵測與 eBEAR 互補性」子章節的主要
+Results 章節（07_）——作為「區域式偵測與 eBEAR 互補性」子章節的主要
 佐證圖。

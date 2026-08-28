@@ -33,9 +33,9 @@ Output Heads (red/green) → Joint Loss (grey).
 
 Matches
 [`04_submit_Model_Architecture_and_Input_Representation.md`](../04_submit_Model_Architecture_and_Input_Representation.md)
-for the backbone, and the loss weights match that same file's "Multitask
-Optimization and Evaluation Framework" subsection exactly
-(0.45 / 0.35 / 0.15 / 0.05).
+for the backbone, and the loss weights match
+[`05_submit_Multitask_Optimization_and_Evaluation_Framework.md`](../05_submit_Multitask_Optimization_and_Evaluation_Framework.md)
+exactly (0.45 / 0.35 / 0.15 / 0.05).
 
 ## Relationship to `SSIF_Architecture.pdf`
 
@@ -60,12 +60,13 @@ redundant:
 If only one architecture figure is kept in the final manuscript, consider
 merging the Joint Loss row from this figure into `SSIF_Architecture.pdf`
 (or citing loss weights in the caption/body text instead, as
-`04_submit_Model_Architecture_and_Input_Representation.md` already does
-in prose).
+`05_submit_Multitask_Optimization_and_Evaluation_Framework.md` already
+does in prose).
 
 ## Suggested manuscript placement
 
-Model Architecture and Input Representation (04_), as Figure 1 or 2 —
+Model Architecture and Input Representation (04_) or Multitask
+Optimization and Evaluation Framework (05_), as Figure 1 or 2 —
 whichever architecture figure is chosen as canonical.
 
 > 中文版: [fig_ssif_architecture.zh-TW.md](fig_ssif_architecture.zh-TW.md)
