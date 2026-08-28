@@ -1,0 +1,15 @@
+Figure. SSIF model architecture. Each station-event record supplies a two-channel
+1 Hz sequence (intensity scaled to [0,1] by dividing by 9, plus a binary validity
+mask) within an origin-referenced early window (T = 10-40 s, in 5 s increments;
+one independently trained model per window). A three-layer 1-D convolutional
+stem (Conv1d, kernel size 3; channel progression 2->96->192->192; each layer
+followed by GroupNorm with 8 groups, GELU, and dropout) maps the input to a
+192-dimensional representation, to which a learnable positional embedding is
+added. A 4-layer pre-norm Transformer encoder (4 attention heads, hidden size
+192, feed-forward multiplier 2, dropout 0.1) then models the sequence, with
+invalid time steps excluded from self-attention via the validity mask. A masked
+mean-pooling layer aggregates only valid time steps into a single 192-dimensional
+vector, which serves as the shared backbone output driving two task-specific
+linear heads: a 10-class intensity head (softmax) and a binary alert head
+(sigmoid, CWA intensity class >= 4). The entire backbone is shared and jointly
+optimized across both heads under the multitask learning paradigm.
