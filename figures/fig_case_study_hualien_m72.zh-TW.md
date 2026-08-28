@@ -31,7 +31,7 @@ stations detected（30 anticipatory, 0 false alarm）」。
 ## 對應章節
 
 此圖已用作
-[`07_submit_case_study_hualien_m72.md`](../07_submit_case_study_hualien_m72.md)
+[`08_submit_case_study_hualien_m72.md`](../08_submit_case_study_hualien_m72.md)
 的配圖（`![Case Study...](figures/fig_case_study_hualien_m72.png)`），
 面板 (a) 表格中的每個數字都與該文件的表格完全吻合。9.4 秒／M6.2 首次
 警報與 14.0 秒／M6.8 修正值，也與該文件「Comparison with eBEAR」段落
@@ -42,7 +42,7 @@ stations detected（30 anticipatory, 0 false alarm）」。
 - Anticipatory TP 在 W25–W30 達到高峰（102–103 個測站），之後下降
   （W35 為 62、W40 為 50），因為多數最終會達到 I≥4 的測站到此時已在
   本地觀測到門檻——這正是
-  [`08_submit_Discussion.md`](../08_submit_Discussion.md)
+  [`09_submit_Discussion.md`](../09_submit_Discussion.md)
   中一般性描述的「預警 vs. 確認」轉變，此處以一個具體的大型事件呈現。
 - 面板 (b) 中的空心菱形標記（eBEAR 14.0 秒／M6.8 的修正值）在圖例中
   沒有對應項目——圖例僅定義了「eBEAR alert time」（實心三角形）與
@@ -57,5 +57,5 @@ stations detected（30 anticipatory, 0 false alarm）」。
 ## 建議放置位置
 
 已正確放置——作為
-[`07_submit_case_study_hualien_m72.md`](../07_submit_case_study_hualien_m72.md)
+[`08_submit_case_study_hualien_m72.md`](../08_submit_case_study_hualien_m72.md)
 的配圖。僅需修正空心菱形標記缺少圖例說明的問題。

@@ -33,7 +33,7 @@ blue dots with the cumulative detected-station count labeled at each
 ## Cross-reference
 
 Already used as the figure for
-[`07_submit_case_study_hualien_m72.md`](../07_submit_case_study_hualien_m72.md)
+[`08_submit_case_study_hualien_m72.md`](../08_submit_case_study_hualien_m72.md)
 (`![Case Study...](figures/fig_case_study_hualien_m72.png)`), and every
 number in panel (a)'s table matches that file's table exactly. The
 9.4 s / M6.2 first-alert and 14.0 s / M6.8 revision also match the
@@ -45,7 +45,7 @@ number in panel (a)'s table matches that file's table exactly. The
   (62 at W35, 50 at W40) as most stations that will reach I≥4 have
   already crossed the threshold locally by then — the same
   anticipatory-vs-confirmatory shift described generally in
-  [`08_submit_Discussion.md`](../08_submit_Discussion.md),
+  [`09_submit_Discussion.md`](../09_submit_Discussion.md),
   now shown for one concrete, large event.
 - Panel (b)'s open-diamond marker (eBEAR's 14.0 s / M6.8 revision) has
   no legend entry — only "eBEAR alert time" (filled triangle) and "SSIF
@@ -61,7 +61,7 @@ number in panel (a)'s table matches that file's table exactly. The
 ## Suggested manuscript placement
 
 Already correctly placed — the figure for
-[`07_submit_case_study_hualien_m72.md`](../07_submit_case_study_hualien_m72.md).
+[`08_submit_case_study_hualien_m72.md`](../08_submit_case_study_hualien_m72.md).
 Only the missing legend entry for the open-diamond marker needs fixing.
 
 > 中文版: [fig_case_study_hualien_m72.zh-TW.md](fig_case_study_hualien_m72.zh-TW.md)

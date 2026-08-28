@@ -22,7 +22,7 @@ I≥4 事件，分為四類：皆偵測到／僅 SSIF／僅 eBEAR／皆漏失。
 ## 對應章節
 
 在定性描述上與
-[`06_submit_Results.md`](../06_submit_Results.md)
+[`07_submit_Results.md`](../07_submit_Results.md)
 「區域式偵測與 eBEAR 互補性」子章節以及摘要中「SSIF 偵測到 2 個 eBEAR
 漏掉的區域正例事件」相符，**但數字對不上**，詳見下方說明。
 
@@ -30,13 +30,13 @@ I≥4 事件，分為四類：皆偵測到／僅 SSIF／僅 eBEAR／皆漏失。
 
 此圖與 `fig_alert_timeline.png` 都使用 **n=44** 的事件群組。但論文中
 所有討論 SSIF/eBEAR 比較的部分（
-[`06_submit_Results.md`](../06_submit_Results.md) 的「區域式偵測與
+[`07_submit_Results.md`](../07_submit_Results.md) 的「區域式偵測與
 eBEAR 互補性」子章節、摘要）都使用 **50 個配對測試事件（39 個區域
 正例、11 個區域負例）**，而 `fig_region_contingency.png` 也正好使用
 50/39/11 這組數字。
 
 兩個理論上應可對應、但目前對不上的數字：
-- 摘要／06_：eBEAR 漏掉 **2** 個區域正例事件 → SSIF 偵測到這 2 個
+- 摘要／07_：eBEAR 漏掉 **2** 個區域正例事件 → SSIF 偵測到這 2 個
   eBEAR 漏掉的事件。
 - 此圖 EW20 之後：**僅 SSIF = 3**，**僅 eBEAR = 0**。
 
@@ -55,5 +55,5 @@ eBEAR 互補性」子章節、摘要）都使用 **50 個配對測試事件（39
 
 ## 建議放置位置
 
-Results 章節（06_），與「區域式偵測與 eBEAR 互補性」子章節並列——但需
+Results 章節（07_），與「區域式偵測與 eBEAR 互補性」子章節並列——但需
 先解決上述 n=44 與 n=50 的落差問題。

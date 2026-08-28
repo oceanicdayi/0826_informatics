@@ -12,18 +12,18 @@ supports, and any issues found while reviewing it.
 | [`fig_region_contingency.png`](fig_region_contingency.png) | [`fig_region_contingency.md`](fig_region_contingency.md) | Region-based TP/FP/FN/TN by window, 50 matched events — matches manuscript exactly |
 | [`fig_detection_categories.png`](fig_detection_categories.png) | [`fig_detection_categories.md`](fig_detection_categories.md) | SSIF/eBEAR both-detect / only / both-miss by window — **n=44, doesn't match the 50/39 cohort used elsewhere** |
 | [`fig_alert_timeline.png`](fig_alert_timeline.png) | [`fig_alert_timeline.md`](fig_alert_timeline.md) | eBEAR delay vs. SSIF earliest window, per event, n=44 — same open cohort question, plus an unlabeled bar-shading distinction |
-| [`fig_case_study_hualien_m72.png`](fig_case_study_hualien_m72.png) | [`fig_case_study_hualien_m72.md`](fig_case_study_hualien_m72.md) | Hualien M7.2 single-event detail — fully consistent with `07_submit_case_study_hualien_m72.md` |
+| [`fig_case_study_hualien_m72.png`](fig_case_study_hualien_m72.png) | [`fig_case_study_hualien_m72.md`](fig_case_study_hualien_m72.md) | Hualien M7.2 single-event detail — fully consistent with `08_submit_case_study_hualien_m72.md` |
 
 ## Headline findings from this review
 
 1. **Two figures share an unresolved n=44 cohort.** `fig_alert_timeline.png`
    and `fig_detection_categories.png` both analyze 44 I≥4 events, while
    every manuscript section that discusses the SSIF/eBEAR comparison
-   (06_, the abstract) and `fig_region_contingency.png` use 50
+   (07_, the abstract) and `fig_region_contingency.png` use 50
    matched testing events (39 region-positive, 11 region-negative).
    The "SSIF only" count in `fig_detection_categories.png` (3, from
    EW20 onward) doesn't match the "2 events eBEAR missed" figure quoted
-   in the abstract and 06_. See
+   in the abstract and 07_. See
    [`fig_detection_categories.md`](fig_detection_categories.md) for
    detail. **Recommend regenerating both n=44 figures against the same
    50-event cohort, or explaining in their captions what the 44-event
@@ -41,6 +41,6 @@ supports, and any issues found while reviewing it.
    counts and `fig_region_contingency.png`'s per-window contingency
    counts match their corresponding manuscript sections exactly, and
    `fig_case_study_hualien_m72.png`'s numbers match
-   `07_submit_case_study_hualien_m72.md` line for line.
+   `08_submit_case_study_hualien_m72.md` line for line.
 
 > 中文版: [README.zh-TW.md](README.zh-TW.md)

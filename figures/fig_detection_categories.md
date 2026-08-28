@@ -24,7 +24,7 @@ system fails to catch alone is caught by the other.
 
 Qualitatively matches the complementarity narrative in the "Region-Based
 Detection and eBEAR Complementarity" subsection of
-[`06_submit_Results.md`](../06_submit_Results.md)
+[`07_submit_Results.md`](../07_submit_Results.md)
 and the abstract's "SSIF detected 2 region-positive events that eBEAR
 missed" — but the **numbers don't line up exactly**, see below.
 
@@ -33,14 +33,14 @@ missed" — but the **numbers don't line up exactly**, see below.
 This figure and `fig_alert_timeline.png` both use a cohort of **n=44**
 events. Every part of the manuscript that discusses the SSIF/eBEAR
 comparison (the "Region-Based Detection and eBEAR Complementarity"
-subsection of [`06_submit_Results.md`](../06_submit_Results.md) and the
+subsection of [`07_submit_Results.md`](../07_submit_Results.md) and the
 abstract) instead uses **50 matched testing events (39 region-positive,
 11 region-negative)**, and `fig_region_contingency.png` matches that
 50/39/11 figure exactly.
 
 Two numbers that should be reconcilable but currently aren't, at face
 value:
-- Abstract / 06_: eBEAR misses **2** region-positive events → SSIF
+- Abstract / 07_: eBEAR misses **2** region-positive events → SSIF
   catches those 2 that eBEAR missed.
 - This figure at EW20+: **SSIF only = 3**, **eBEAR only = 0**.
 
@@ -61,7 +61,7 @@ adding a note explaining what distinguishes the 44-event cohort.
 
 ## Suggested manuscript placement
 
-Results section (06_), alongside the "Region-Based Detection and eBEAR
+Results section (07_), alongside the "Region-Based Detection and eBEAR
 Complementarity" subsection — but only after the n=44 vs n=50
 discrepancy above is resolved.
 
