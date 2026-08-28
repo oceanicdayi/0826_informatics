@@ -19,8 +19,9 @@ Forecaster，逐秒地震強度預測器）論文的各章節草稿。檔案編�
 | 09 | [09_submit_Station_Level_Alert_and_Class_Prediction.md](09_submit_Station_Level_Alert_and_Class_Prediction.md) | 結果 — 測站層級警報與震度分類預測 |
 | 10 | [10_submit_Region_Based_Detection_and_Complementarity.md](10_submit_Region_Based_Detection_and_Complementarity.md) | 結果 — 區域事件偵測與 eBEAR 之互補性 |
 | 11 | [11_submit_Complementary_Failure_Modes_and_Generalization.md](11_submit_Complementary_Failure_Modes_and_Generalization.md) | 結果 — 互補失效模式與泛化能力 |
-| 12 | [12_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md](12_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md) | 討論 — 速度與可靠度的取捨及作業時窗選擇 |
-| 13 | [13_submit_Operational_Integration_and_Tradeoff.md](13_submit_Operational_Integration_and_Tradeoff.md) | 結論 — 作業整合與預警／確認的取捨 |
+| 12 | [12_submit_case_study_hualien_m72.md](12_submit_case_study_hualien_m72.md) | 結果 — 案例研究：2024 年 M7.2 花蓮地震，SSIF 對比 eBEAR |
+| 13 | [13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md](13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md) | 討論 — 速度與可靠度的取捨及作業時窗選擇 |
+| 14 | [14_submit_Operational_Integration_and_Tradeoff.md](14_submit_Operational_Integration_and_Tradeoff.md) | 結論 — 作業整合與預警／確認的取捨 |
 
 ## 圖表
 

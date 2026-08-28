@@ -19,8 +19,9 @@ files are numbered to reflect the paper's logical reading order:
 | 09 | [09_submit_Station_Level_Alert_and_Class_Prediction.md](09_submit_Station_Level_Alert_and_Class_Prediction.md) | Results — station-level alert and class prediction |
 | 10 | [10_submit_Region_Based_Detection_and_Complementarity.md](10_submit_Region_Based_Detection_and_Complementarity.md) | Results — region-based event detection and eBEAR complementarity |
 | 11 | [11_submit_Complementary_Failure_Modes_and_Generalization.md](11_submit_Complementary_Failure_Modes_and_Generalization.md) | Results — complementary failure modes and generalization |
-| 12 | [12_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md](12_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md) | Discussion — speed–reliability tradeoff and operational window selection |
-| 13 | [13_submit_Operational_Integration_and_Tradeoff.md](13_submit_Operational_Integration_and_Tradeoff.md) | Conclusions — operational integration and the anticipatory–confirmatory tradeoff |
+| 12 | [12_submit_case_study_hualien_m72.md](12_submit_case_study_hualien_m72.md) | Results — case study: 2024 M7.2 Hualien earthquake, SSIF vs. eBEAR |
+| 13 | [13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md](13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md) | Discussion — speed–reliability tradeoff and operational window selection |
+| 14 | [14_submit_Operational_Integration_and_Tradeoff.md](14_submit_Operational_Integration_and_Tradeoff.md) | Conclusions — operational integration and the anticipatory–confirmatory tradeoff |
 
 ## Figures
 
