@@ -63,3 +63,5 @@ number in panel (a)'s table matches that file's table exactly. The
 Already correctly placed — the figure for
 [`12_submit_case_study_hualien_m72.md`](../12_submit_case_study_hualien_m72.md).
 Only the missing legend entry for the open-diamond marker needs fixing.
+
+> 中文版: [fig_case_study_hualien_m72.zh-TW.md](fig_case_study_hualien_m72.zh-TW.md)

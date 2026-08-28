@@ -43,3 +43,5 @@ Method section (04_), as the primary architecture figure — this is the
 submission-ready version; prefer it over `fig_ssif_architecture.png`
 unless the loss-weight breakdown needs to be shown visually rather than
 in prose.
+
+> 中文版: [SSIF_Architecture.zh-TW.md](SSIF_Architecture.zh-TW.md)

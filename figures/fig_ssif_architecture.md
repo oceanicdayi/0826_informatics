@@ -61,3 +61,5 @@ does in prose).
 
 Method section (04_/05_), as Figure 1 or 2 — whichever architecture
 figure is chosen as canonical.
+
+> 中文版: [fig_ssif_architecture.zh-TW.md](fig_ssif_architecture.zh-TW.md)

@@ -63,3 +63,5 @@ adding a note explaining what distinguishes the 44-event cohort.
 
 Results section, alongside 10_/11_ — but only after the n=44 vs n=50
 discrepancy above is resolved.
+
+> 中文版: [fig_detection_categories.zh-TW.md](fig_detection_categories.zh-TW.md)
