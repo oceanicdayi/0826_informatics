@@ -17,7 +17,7 @@
 
 Matches the split counts (670 / 147 / 147 event-level
 training/validation/testing split) and the station coverage described in
-[`04_submit_Data.md`](../04_submit_Data.md) — the "Data Partitioning and
+[`05_submit_Data.md`](../05_submit_Data.md) — the "Data Partitioning and
 Model Selection Protocol" and "Intensity Observations and Alert-Task
 Formulation" subsections, respectively.
 
@@ -31,8 +31,8 @@ Formulation" subsections, respectively.
   geographic extrapolation.
 - The single largest marker in the northeast cluster (near 24.0°N,
   121.8°E) is almost certainly the 2024-04-03 M7.2 Hualien event
-  featured in the case study at the end of
-  [`05_submit_Results.md`](../05_submit_Results.md).
+  featured in
+  [`07_submit_case_study_hualien_m72.md`](../07_submit_case_study_hualien_m72.md).
 - Station coverage is visibly sparser offshore and in the southeast
   corner — a plausible geographic source of the longer-window
   performance gap noted for near-source/offshore stations elsewhere in
@@ -40,7 +40,7 @@ Formulation" subsections, respectively.
 
 ## Suggested manuscript placement
 
-Best suited as a **Data** section figure (04_), to establish the
+Best suited as a **Data** section figure (05_), to establish the
 spatial/temporal representativeness of the train/val/test split before
 the Results sections rely on it.
 

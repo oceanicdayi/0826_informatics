@@ -28,7 +28,7 @@ These exact figures (34/39 at 10 s, perfect POD from 20 s, perfect
 precision+POD from 25 s onward) and the "39 region-positive / 11
 region-negative" split match the "Region-Based Detection and eBEAR
 Complementarity" subsection of
-[`05_submit_Results.md`](../05_submit_Results.md) line for line.
+[`06_submit_Results.md`](../06_submit_Results.md) line for line.
 
 ## Observations
 
@@ -37,7 +37,7 @@ Complementarity" subsection of
   "detects everything but over-triggers on 3 borderline regions"
   (EW20), before both errors vanish from EW25 onward. This is the
   precision dip mentioned qualitatively in
-  [`06_submit_Discussion.md`](../06_submit_Discussion.md) as the
+  [`08_submit_Discussion.md`](../08_submit_Discussion.md) as the
   operational-window trade-off.
 - **n=50 here vs. n=44 in `fig_alert_timeline.png` / `fig_detection_categories.png`**
   — see the note in
@@ -46,7 +46,7 @@ Complementarity" subsection of
 
 ## Suggested manuscript placement
 
-Results section (05_) — pairs with its "Region-Based Detection and eBEAR
+Results section (06_) — pairs with its "Region-Based Detection and eBEAR
 Complementarity" subsection as its primary supporting figure.
 
 > 中文版: [fig_region_contingency.zh-TW.md](fig_region_contingency.zh-TW.md)

@@ -29,9 +29,10 @@
 
 ## 對應章節
 
-主幹部分對應 [`03_submit_Method.md`](../03_submit_Method.md) 中「模型架構與
-輸入表示法」子章節，損失權重則與同一檔案「多任務最佳化與評估框架」子章節
-完全一致（0.45／0.35／0.15／0.05）。
+主幹部分對應
+[`04_submit_Model_Architecture_and_Input_Representation.md`](../04_submit_Model_Architecture_and_Input_Representation.md)，
+損失權重則與同一檔案「多任務最佳化與評估框架」子章節完全一致
+（0.45／0.35／0.15／0.05）。
 
 ## 與 `SSIF_Architecture.pdf` 的關係
 
@@ -53,9 +54,11 @@
 | 印刷友善度（黑白、網底圖樣） | 否 | 是 |
 
 若最終論文只保留一張架構圖，可考慮將此圖的「聯合損失」列合併進
-`SSIF_Architecture.pdf`（或如 `03_submit_Method.md` 目前做法，改以正文文字
-說明損失權重）。
+`SSIF_Architecture.pdf`（或如
+`04_submit_Model_Architecture_and_Input_Representation.md` 目前做法，
+改以正文文字說明損失權重）。
 
 ## 建議放置位置
 
-方法章節（03_），作為 Figure 1 或 2——視最終選定哪張架構圖為正式圖而定。
+模型架構與輸入表示法章節（04_），作為 Figure 1 或 2——視最終選定哪張
+架構圖為正式圖而定。
