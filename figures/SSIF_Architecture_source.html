@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>SSIF Architecture (print)</title>
+<style>
+  @page { size: 9.375in 16.5in; margin: 0; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  svg {
+    display: block;
+  }
+  text {
+    font-family: Arial, Helvetica, "Liberation Sans", sans-serif;
+  }
+
+  .stage-box { fill: #FFFFFF; stroke: #2B2F36; stroke-width: 1.6; }
+  .sub-box   { fill: #F2F3F5; stroke: #6B7280; stroke-width: 1.2; }
+
+  .eyebrow      { font-size: 12px; letter-spacing: 0.09em; fill: #4B5563; font-weight: 700; }
+  .stage-title  { font-size: 18px; font-weight: 700; fill: #111418; }
+  .mono         { font-size: 12.5px; fill: #4B5563; }
+  .mono-strong  { font-size: 13px; fill: #111418; font-weight: 700; }
+  .caption-sm   { font-size: 13px; fill: #4B5563; }
+  .label-sm     { font-size: 11.5px; fill: #55606E; }
+
+  .conn-line     { stroke: #2B2F36; stroke-width: 1.8; fill: none; }
+  .conn-arrow    { stroke: #1F5C8B; stroke-width: 2.2; fill: none; }
+  .residual-line { stroke: #6B7280; stroke-width: 1.25; fill: none; stroke-dasharray: 3,3; opacity: 0.85; }
+  .bracket-line  { stroke: #4B5563; stroke-width: 1.25; fill: none; }
+
+  .seq-bar      { fill: #1F5C8B; }
+  .seq-missing  { stroke: #97A0AC; stroke-width: 1.7; stroke-dasharray: 2,2; }
+  .seq-baseline { stroke: #C7CDD5; stroke-width: 1; }
+
+  .mk-ink   { fill: #2B2F36; }
+  .mk-blue  { fill: #1F5C8B; }
+  .mk-maroon{ fill: #8A3324; }
+
+  .head-box     { stroke: #6B7280; stroke-width: 1.25; }
+  .head-title   { font-size: 15px; font-weight: 700; fill: #111418; }
+
+  .junction-dot { fill: #1F5C8B; }
+</style>
+</head>
+<body>
+
+<svg viewBox="0 0 900 1580" width="900" height="1580" xmlns="http://www.w3.org/2000/svg" role="img"
+     aria-label="SSIF architecture: a two-channel 1 Hz intensity and validity-mask sequence passes through a three-layer convolutional stem (channels 2 to 96 to 192 to 192), gains a learnable positional embedding, is processed by a 4-layer pre-norm Transformer encoder with masked self-attention, is aggregated by masked mean-pooling into a 192-dimensional vector, and finally splits into a 10-class intensity head and a binary I-greater-than-or-equal-4 alert head.">
+
+  <defs>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path class="mk-ink" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path class="mk-blue" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="arrow-maroon" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path class="mk-maroon" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <pattern id="hatch" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="7" height="7" fill="#F5ECE9"/>
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#8A3324" stroke-width="1.4" opacity="0.55"/>
+    </pattern>
+
+    <g id="seq-glyph">
+      <line x1="-6" y1="0" x2="322" y2="0" class="seq-baseline"/>
+      <rect class="seq-bar" x="0"   y="-14" width="10" height="14" rx="1.5"/>
+      <rect class="seq-bar" x="18"  y="-22" width="10" height="22" rx="1.5"/>
+      <rect class="seq-bar" x="36"  y="-4"  width="10" height="4"  rx="1"/>
+      <rect class="seq-bar" x="54"  y="-44" width="10" height="44" rx="1.5"/>
+      <line class="seq-missing" x1="77" y1="0" x2="77" y2="-10"/>
+      <rect class="seq-bar" x="90"  y="-52" width="10" height="52" rx="1.5"/>
+      <rect class="seq-bar" x="108" y="-38" width="10" height="38" rx="1.5"/>
+      <rect class="seq-bar" x="126" y="-26" width="10" height="26" rx="1.5"/>
+      <rect class="seq-bar" x="144" y="-34" width="10" height="34" rx="1.5"/>
+      <line class="seq-missing" x1="167" y1="0" x2="167" y2="-10"/>
+      <rect class="seq-bar" x="180" y="-58" width="10" height="58" rx="1.5"/>
+      <rect class="seq-bar" x="198" y="-66" width="10" height="66" rx="1.5"/>
+      <rect class="seq-bar" x="216" y="-50" width="10" height="50" rx="1.5"/>
+      <line class="seq-missing" x1="239" y1="0" x2="239" y2="-10"/>
+      <rect class="seq-bar" x="252" y="-24" width="10" height="24" rx="1.5"/>
+      <rect class="seq-bar" x="270" y="-18" width="10" height="18" rx="1.5"/>
+      <rect class="seq-bar" x="288" y="-12" width="10" height="12" rx="1.5"/>
+      <rect class="seq-bar" x="306" y="-8"  width="10" height="8"  rx="1.5"/>
+    </g>
+  </defs>
+
+  <!-- ===== LEGEND ===== -->
+  <text x="60" y="35" class="label-sm" letter-spacing="0.06em">DATA FLOW: TOP &#8594; BOTTOM</text>
+  <rect x="470" y="26" width="16" height="10" fill="#1F5C8B" rx="1.5"/>
+  <text x="492" y="35" class="label-sm">valid time step</text>
+  <line x1="640" y1="36" x2="640" y2="26" class="seq-missing"/>
+  <text x="652" y="35" class="label-sm">missing (masked out)</text>
+
+  <!-- ===================================================== -->
+  <!-- STAGE A — INPUT                                        -->
+  <!-- ===================================================== -->
+  <rect x="60" y="60" width="780" height="200" rx="10" class="stage-box"/>
+  <text x="80" y="86" class="eyebrow">INPUT</text>
+  <text x="80" y="112" class="stage-title">1 Hz Intensity Sequence + Validity Mask</text>
+  <text x="80" y="134" class="mono">per-window early sequence &middot; T = 10&ndash;40 s (5 s steps) &middot; scaled to [0,1] by &divide;9</text>
+  <use href="#seq-glyph" transform="translate(292,220)"/>
+  <text x="450" y="245" text-anchor="middle" class="label-sm">2 channels: scaled intensity &middot; validity mask &nbsp;&rarr;&nbsp; shape [B, 2, T]</text>
+
+  <line x1="450" y1="260" x2="450" y2="313" class="conn-line" marker-end="url(#arrow-ink)"/>
+  <text x="470" y="292" class="mono">[B, 2, T]</text>
+
+  <!-- ===================================================== -->
+  <!-- STAGE B — CONVOLUTIONAL STEM                           -->
+  <!-- ===================================================== -->
+  <rect x="60" y="320" width="780" height="200" rx="10" class="stage-box"/>
+  <text x="80" y="346" class="eyebrow">ENCODER &mdash; CONVOLUTIONAL STEM (&times;3)</text>
+  <text x="80" y="368" class="mono">each layer: Conv1d (k=3) &rarr; GroupNorm(8) &rarr; GELU &rarr; Dropout</text>
+
+  <rect x="100" y="400" width="190" height="80" rx="6" class="sub-box"/>
+  <text x="195" y="430" text-anchor="middle" class="mono-strong">Conv1d k=3</text>
+  <text x="195" y="452" text-anchor="middle" class="stage-title" font-size="15">2 &rarr; 96</text>
+  <line x1="290" y1="440" x2="345" y2="440" class="conn-line" marker-end="url(#arrow-ink)"/>
+
+  <rect x="355" y="400" width="190" height="80" rx="6" class="sub-box"/>
+  <text x="450" y="430" text-anchor="middle" class="mono-strong">Conv1d k=3</text>
+  <text x="450" y="452" text-anchor="middle" class="stage-title" font-size="15">96 &rarr; 192</text>
+  <line x1="545" y1="440" x2="600" y2="440" class="conn-line" marker-end="url(#arrow-ink)"/>
+
+  <rect x="610" y="400" width="190" height="80" rx="6" class="sub-box"/>
+  <text x="705" y="430" text-anchor="middle" class="mono-strong">Conv1d k=3</text>
+  <text x="705" y="452" text-anchor="middle" class="stage-title" font-size="15">192 &rarr; 192</text>
+
+  <line x1="450" y1="520" x2="450" y2="605" class="conn-line" marker-end="url(#arrow-ink)"/>
+  <text x="405" y="562" text-anchor="end" class="mono">[B,192,T]</text>
+  <circle cx="450" cy="565" r="7" fill="#FFFFFF" stroke="#2B2F36" stroke-width="1.5"/>
+  <text x="450" y="570" text-anchor="middle" class="mono-strong" font-size="13">+</text>
+  <line x1="560" y1="565" x2="463" y2="565" class="conn-line" marker-end="url(#arrow-ink)"/>
+  <rect x="560" y="540" width="240" height="50" rx="6" class="sub-box"/>
+  <text x="680" y="562" text-anchor="middle" class="mono-strong">Positional Embedding</text>
+  <text x="680" y="580" text-anchor="middle" class="label-sm">learnable, added once</text>
+
+  <!-- ===================================================== -->
+  <!-- STAGE C — TRANSFORMER ENCODER                          -->
+  <!-- ===================================================== -->
+  <rect x="60" y="610" width="780" height="360" rx="10" class="stage-box"/>
+  <text x="80" y="636" class="eyebrow">ENCODER &mdash; TRANSFORMER (PRE-NORM)</text>
+  <text x="80" y="658" class="mono">4 layers &middot; 4 heads &middot; hidden 192 &middot; feed-forward &times;2 &middot; dropout 0.1</text>
+
+  <path d="M100,712 C300,666 600,666 800,712" class="residual-line"/>
+  <circle cx="800" cy="712" r="5.5" class="junction-dot"/>
+  <rect x="100" y="680" width="700" height="64" rx="6" class="sub-box"/>
+  <text x="120" y="708" class="mono-strong">LayerNorm &rarr; Multi-Head Self-Attention (4 &times; 48-d)</text>
+  <text x="120" y="728" class="label-sm">invalid time steps excluded from attention via validity mask &rarr; Add</text>
+
+  <path d="M100,800 C300,754 600,754 800,800" class="residual-line"/>
+  <circle cx="800" cy="800" r="5.5" class="junction-dot"/>
+  <rect x="100" y="768" width="700" height="64" rx="6" class="sub-box"/>
+  <text x="120" y="796" class="mono-strong">LayerNorm &rarr; Feed-Forward (192 &rarr; 384 &rarr; 192, GELU)</text>
+  <text x="120" y="816" class="label-sm">&rarr; Add</text>
+
+  <path d="M90,680 L82,680 L82,832 L90,832" class="bracket-line" fill="none"/>
+  <text x="67" y="756" text-anchor="middle" class="label-sm" transform="rotate(-90 67 756)">&times; 4 LAYERS</text>
+
+  <use href="#seq-glyph" transform="translate(292,928)"/>
+  <text x="450" y="946" text-anchor="middle" class="label-sm">masked self-attention: every layer skips the missing steps above</text>
+
+  <line x1="450" y1="970" x2="450" y2="1023" class="conn-line" marker-end="url(#arrow-ink)"/>
+  <text x="470" y="1002" class="mono">[B,192,T]</text>
+
+  <!-- ===================================================== -->
+  <!-- STAGE D — MASKED MEAN-POOLING                          -->
+  <!-- ===================================================== -->
+  <rect x="60" y="1030" width="780" height="220" rx="10" class="stage-box"/>
+  <text x="80" y="1056" class="eyebrow">MASKED MEAN-POOLING</text>
+  <text x="80" y="1078" class="mono">average over valid time steps only &mdash; missing steps do not contribute</text>
+
+  <use href="#seq-glyph" transform="translate(292,1166)"/>
+  <line x1="450" y1="1176" x2="450" y2="1200" class="conn-arrow" marker-end="url(#arrow-blue)"/>
+  <rect x="405" y="1206" width="90" height="32" rx="6" fill="#E9F0F5" stroke="#1F5C8B" stroke-width="1.25"/>
+  <text x="450" y="1227" text-anchor="middle" class="mono-strong" fill="#1F5C8B">[B,192]</text>
+
+  <line x1="450" y1="1250" x2="450" y2="1303" class="conn-line" marker-end="url(#arrow-ink)"/>
+  <text x="470" y="1282" class="mono">pooled backbone output</text>
+
+  <!-- ===================================================== -->
+  <!-- STAGE E — MULTITASK OUTPUT HEADS                       -->
+  <!-- ===================================================== -->
+  <rect x="60" y="1310" width="780" height="250" rx="10" class="stage-box"/>
+  <text x="80" y="1336" class="eyebrow">MULTITASK OUTPUT HEADS</text>
+  <text x="80" y="1358" class="mono">shared 192-d representation &mdash; jointly optimized, drives two linear heads</text>
+
+  <circle cx="450" cy="1400" r="6" class="junction-dot"/>
+  <line x1="450" y1="1400" x2="272" y2="1444" class="conn-arrow" marker-end="url(#arrow-blue)"/>
+  <line x1="450" y1="1400" x2="628" y2="1444" stroke="#8A3324" stroke-width="2.2" marker-end="url(#arrow-maroon)"/>
+
+  <rect x="100" y="1450" width="320" height="90" rx="8" fill="#EDF2F6" class="head-box"/>
+  <rect x="100" y="1450" width="5" height="90" fill="#1F5C8B"/>
+  <text x="122" y="1476" class="head-title">Intensity Class Head</text>
+  <text x="122" y="1500" class="mono-strong">Linear(192&rarr;10) &rarr; softmax</text>
+  <text x="122" y="1520" class="caption-sm">10-class CWA intensity distribution (0&ndash;9)</text>
+
+  <rect x="480" y="1450" width="320" height="90" rx="8" fill="url(#hatch)" class="head-box"/>
+  <rect x="480" y="1450" width="5" height="90" fill="#8A3324"/>
+  <text x="502" y="1476" class="head-title">Alert Head</text>
+  <text x="502" y="1500" class="mono-strong">Linear(192&rarr;1) &rarr; sigmoid</text>
+  <text x="502" y="1520" class="caption-sm">binary: final intensity &ge; class 4</text>
+
+</svg>
+
+</body>
+</html>

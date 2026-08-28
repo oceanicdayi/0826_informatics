@@ -22,4 +22,18 @@ Forecaster，逐秒地震強度預測器）論文的各章節草稿。檔案編�
 | 12 | [12_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md](12_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md) | 討論 — 速度與可靠度的取捨及作業時窗選擇 |
 | 13 | [13_submit_Operational_Integration_and_Tradeoff.md](13_submit_Operational_Integration_and_Tradeoff.md) | 結論 — 作業整合與預警／確認的取捨 |
 
+## 圖表
+
+投稿用圖表存放於 [`figures/`](figures/)：
+
+- [`SSIF_Architecture.pdf`](figures/SSIF_Architecture.pdf) — 向量圖，適用於 LaTeX／印刷投稿
+- [`SSIF_Architecture.png`](figures/SSIF_Architecture.png) — 高解析度點陣圖（約 350 dpi），適用於 Word 投稿系統
+- [`SSIF_Architecture_caption.txt`](figures/SSIF_Architecture_caption.txt) — 建議的圖說文字
+- [`SSIF_Architecture_source.html`](figures/SSIF_Architecture_source.html) — 可編輯原始檔（以瀏覽器開啟，或用 headless Chromium 重新輸出）
+
+此圖對應
+[04_submit_Model_Architecture_and_Input_Representation.md](04_submit_Model_Architecture_and_Input_Representation.md)
+所描述的模型架構：輸入表示法、卷積主幹、位置編碼、遮罩 Transformer 編碼器、
+遮罩平均池化，以及兩個多任務輸出頭。
+
 > English version: [README.md](README.md)

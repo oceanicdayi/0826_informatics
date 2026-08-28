@@ -22,4 +22,18 @@ files are numbered to reflect the paper's logical reading order:
 | 12 | [12_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md](12_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md) | Discussion — speed–reliability tradeoff and operational window selection |
 | 13 | [13_submit_Operational_Integration_and_Tradeoff.md](13_submit_Operational_Integration_and_Tradeoff.md) | Conclusions — operational integration and the anticipatory–confirmatory tradeoff |
 
+## Figures
+
+Submission-ready figures live in [`figures/`](figures/):
+
+- [`SSIF_Architecture.pdf`](figures/SSIF_Architecture.pdf) — vector figure, for LaTeX/print submission
+- [`SSIF_Architecture.png`](figures/SSIF_Architecture.png) — high-resolution raster (~350 dpi), for Word-based submission systems
+- [`SSIF_Architecture_caption.txt`](figures/SSIF_Architecture_caption.txt) — suggested figure caption
+- [`SSIF_Architecture_source.html`](figures/SSIF_Architecture_source.html) — editable source (open in a browser, or re-render with headless Chromium)
+
+The figure illustrates the model architecture described in
+[04_submit_Model_Architecture_and_Input_Representation.md](04_submit_Model_Architecture_and_Input_Representation.md):
+input representation, convolutional stem, positional embedding, the masked
+Transformer encoder, masked mean-pooling, and the two multitask output heads.
+
 > 中文版: [README.zh-TW.md](README.zh-TW.md)
