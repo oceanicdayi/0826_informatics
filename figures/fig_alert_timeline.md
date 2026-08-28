@@ -24,7 +24,7 @@ Same 44-event cohort as
 open question about how this cohort relates to the 50-event / 39
 region-positive cohort used in the "Region-Based Detection and eBEAR
 Complementarity" subsection of
-[`05_submit_Results.md`](../05_submit_Results.md). The eBEAR delay range
+[`06_submit_Results.md`](../06_submit_Results.md). The eBEAR delay range
 (~6–33 s, median well under 20 s) is broadly consistent with the
 "median ~15 s" figure quoted in that same subsection.
 
@@ -49,9 +49,8 @@ Complementarity" subsection of
   reviewers.
 - The event `20240403_0920` in this list is almost certainly the
   2024-04-03 M7.2 Hualien mainshock — its eBEAR delay bar (~26 s) is
-  inconsistent with the case study's reported **9.4 s** first-alert time
-  in the case study at the end of
-  [`05_submit_Results.md`](../05_submit_Results.md).
+  inconsistent with the reported **9.4 s** first-alert time in
+  [`07_submit_case_study_hualien_m72.md`](../07_submit_case_study_hualien_m72.md).
   If this row is the same event, the two figures are describing
   different things (e.g. this chart may show a *later, revised* eBEAR
   alert rather than the first alert) and the discrepancy should be
@@ -59,9 +58,9 @@ Complementarity" subsection of
 
 ## Suggested manuscript placement
 
-Results (05_) or Discussion (06_), as supporting evidence for the "SSIF
+Results (06_) or Discussion (08_), as supporting evidence for the "SSIF
 is slower but eBEAR's speed comes with regional coverage gaps" argument
-in [`06_submit_Discussion.md`](../06_submit_Discussion.md) —
+in [`08_submit_Discussion.md`](../08_submit_Discussion.md) —
 contingent on resolving the n=44 cohort question and the unlabeled bar
 shading first.
 

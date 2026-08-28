@@ -11,16 +11,16 @@
 | [`fig_region_contingency.png`](fig_region_contingency.png) | [`fig_region_contingency.zh-TW.md`](fig_region_contingency.zh-TW.md) | 各時窗的區域式 TP/FP/FN/TN，50 個配對事件——與論文完全吻合 |
 | [`fig_detection_categories.png`](fig_detection_categories.png) | [`fig_detection_categories.zh-TW.md`](fig_detection_categories.zh-TW.md) | SSIF/eBEAR 各時窗的「皆偵測／各自偵測／皆漏失」分類——**n=44，與其他章節使用的 50/39 事件群組對不上** |
 | [`fig_alert_timeline.png`](fig_alert_timeline.png) | [`fig_alert_timeline.zh-TW.md`](fig_alert_timeline.zh-TW.md) | 每個事件的 eBEAR 延遲 vs. SSIF 最早偵測時窗，n=44——同樣的群組疑問，另有未標示的長條底色差異 |
-| [`fig_case_study_hualien_m72.png`](fig_case_study_hualien_m72.png) | [`fig_case_study_hualien_m72.zh-TW.md`](fig_case_study_hualien_m72.zh-TW.md) | 花蓮 M7.2 單一事件詳圖——與 `05_submit_Results.md` 完全一致 |
+| [`fig_case_study_hualien_m72.png`](fig_case_study_hualien_m72.png) | [`fig_case_study_hualien_m72.zh-TW.md`](fig_case_study_hualien_m72.zh-TW.md) | 花蓮 M7.2 單一事件詳圖——與 `07_submit_case_study_hualien_m72.md` 完全一致 |
 
 ## 本次審閱的重點發現
 
 1. **兩張圖使用了未解釋的 n=44 事件群組。** `fig_alert_timeline.png` 與
    `fig_detection_categories.png` 都分析 44 個 I≥4 事件，但所有討論
-   SSIF/eBEAR 比較的論文章節（05_、摘要）以及
+   SSIF/eBEAR 比較的論文章節（06_、摘要）以及
    `fig_region_contingency.png` 用的都是 **50 個配對測試事件（39 個
    區域正例、11 個區域負例）**。`fig_detection_categories.png` 中
-   「SSIF only」的數字（EW20 之後為 3）與摘要及 05_ 文件所述「eBEAR
+   「SSIF only」的數字（EW20 之後為 3）與摘要及 06_ 文件所述「eBEAR
    漏掉 2 個事件」對不上。詳見
    [`fig_detection_categories.zh-TW.md`](fig_detection_categories.zh-TW.md)。
    **建議在納入投稿前，將這兩張 n=44 的圖重新以相同的 50 事件群組
@@ -35,6 +35,6 @@
 4. 其餘檢查皆無問題：`fig_station_event_map.png` 的資料切分數量與
    `fig_region_contingency.png` 各時窗的列聯表數字，都與對應的論文章節
    完全吻合；`fig_case_study_hualien_m72.png` 的所有數字也與
-   `05_submit_Results.md` 逐項一致。
+   `07_submit_case_study_hualien_m72.md` 逐項一致。
 
 > English version: [README.md](README.md)
