@@ -5,7 +5,7 @@
 
 | 圖片 | 分析檔 | 摘要 |
 |---|---|---|
-| [`SSIF_Architecture.png`](SSIF_Architecture.png) | [`SSIF_Architecture.zh-TW.md`](SSIF_Architecture.zh-TW.md) | 投稿用模型架構圖（印刷安全、單色系設計） |
+| `SSIF_Architecture.pdf`（PNG 已刪除） | [`SSIF_Architecture.zh-TW.md`](SSIF_Architecture.zh-TW.md) | 投稿用模型架構圖（印刷安全、單色系設計） |
 | [`fig_ssif_architecture.png`](fig_ssif_architecture.png) | [`fig_ssif_architecture.zh-TW.md`](fig_ssif_architecture.zh-TW.md) | 另一版彩色架構圖——額外呈現四項聯合損失權重 |
 | [`fig_station_event_map.png`](fig_station_event_map.png) | [`fig_station_event_map.zh-TW.md`](fig_station_event_map.zh-TW.md) | 台灣地圖：642 測站 + 670/147/147 訓練/驗證/測試事件 |
 | [`fig_region_contingency.png`](fig_region_contingency.png) | [`fig_region_contingency.zh-TW.md`](fig_region_contingency.zh-TW.md) | 各時窗的區域式 TP/FP/FN/TN，50 個配對事件——與論文完全吻合 |
@@ -25,11 +25,10 @@
    [`fig_detection_categories.zh-TW.md`](fig_detection_categories.zh-TW.md)。
    **建議在納入投稿前，將這兩張 n=44 的圖重新以相同的 50 事件群組
    產出，或在圖說中說明 44 這個群組的定義。**
-2. **存在兩張重複的架構圖**（`SSIF_Architecture.png` 與
-   `fig_ssif_architecture.png`），內容大致重疊但不完全相同——後者多
-   呈現了聯合損失的權重。建議擇一作為正式圖（比較詳見
-   [`fig_ssif_architecture.zh-TW.md`](fig_ssif_architecture.zh-TW.md)），
-   避免兩張圖同時出現在論文中。
+2. ~~存在兩張重複的架構圖~~ **已處理：** `SSIF_Architecture.png` 已刪除，
+   目前保留 `fig_ssif_architecture.png`（額外呈現聯合損失權重）與
+   `SSIF_Architecture.pdf` 兩份架構相關檔案——各自涵蓋的內容比較詳見
+   [`fig_ssif_architecture.zh-TW.md`](fig_ssif_architecture.zh-TW.md)。
 3. **一個未標示的圖例標記。** `fig_case_study_hualien_m72.png` 面板 (b)
    中，eBEAR 14.0 秒／M6.8 的修正估計值以空心菱形繪製，但圖例中沒有
    對應說明。

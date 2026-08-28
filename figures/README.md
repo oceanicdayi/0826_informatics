@@ -6,7 +6,7 @@ supports, and any issues found while reviewing it.
 
 | Image | Analysis | Summary |
 |---|---|---|
-| [`SSIF_Architecture.png`](SSIF_Architecture.png) | [`SSIF_Architecture.md`](SSIF_Architecture.md) | Submission-ready model architecture figure (print-safe, monochrome) |
+| `SSIF_Architecture.pdf` (PNG removed) | [`SSIF_Architecture.md`](SSIF_Architecture.md) | Submission-ready model architecture figure (print-safe, monochrome) |
 | [`fig_ssif_architecture.png`](fig_ssif_architecture.png) | [`fig_ssif_architecture.md`](fig_ssif_architecture.md) | Alternate, colorful architecture figure — also shows the 4-term joint loss |
 | [`fig_station_event_map.png`](fig_station_event_map.png) | [`fig_station_event_map.md`](fig_station_event_map.md) | Taiwan map: 642 stations + 670/147/147 train/val/test events |
 | [`fig_region_contingency.png`](fig_region_contingency.png) | [`fig_region_contingency.md`](fig_region_contingency.md) | Region-based TP/FP/FN/TN by window, 50 matched events — matches manuscript exactly |
@@ -28,12 +28,12 @@ supports, and any issues found while reviewing it.
    detail. **Recommend regenerating both n=44 figures against the same
    50-event cohort, or explaining in their captions what the 44-event
    cohort is**, before either goes into the submission.
-2. **Two architecture figures exist** (`SSIF_Architecture.png` and
-   `fig_ssif_architecture.png`) with overlapping but not identical
-   content — the latter additionally shows the joint-loss weights.
-   Recommend picking one as canonical (see
-   [`fig_ssif_architecture.md`](fig_ssif_architecture.md) for a
-   side-by-side comparison) rather than carrying both into the paper.
+2. ~~Two architecture figures exist~~ **Resolved:** `SSIF_Architecture.png`
+   was removed, leaving `fig_ssif_architecture.png` (which also shows the
+   joint-loss weights) and `SSIF_Architecture.pdf` as the remaining
+   architecture figures — see
+   [`fig_ssif_architecture.md`](fig_ssif_architecture.md) for what each
+   still covers.
 3. **One unlabeled marker.** `fig_case_study_hualien_m72.png` panel (b)
    plots eBEAR's 14.0 s/M6.8 magnitude revision as an open diamond with
    no legend entry.

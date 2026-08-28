@@ -1,4 +1,4 @@
-# SSIF_Architecture.png / .pdf — 投稿用架構圖（中文版）
+# SSIF_Architecture.pdf — 投稿用架構圖（中文版）
 
 **類型：** 由上而下的方塊流程圖，單色系＋兩個強調色（藍／棗紅），專為投稿
 印刷設計（原始碼見 `SSIF_Architecture_source.html`，輸出為約 350 dpi 的
@@ -28,10 +28,12 @@ pre-norm、含遮罩的多頭自注意力、前饋層、殘差弧線、遮罩注
 
 | 檔案 | 用途 |
 |---|---|
-| `SSIF_Architecture.png` | 高解析度點陣圖（約 350 dpi） |
 | `SSIF_Architecture.pdf` | 向量圖，適用於 LaTeX／印刷投稿 |
-| `SSIF_Architecture_source.html` | 可編輯原始檔（以瀏覽器開啟，或用 headless Chromium 重新輸出） |
+| `SSIF_Architecture_source.html` | 可編輯原始檔（以瀏覽器開啟，或用 headless Chromium 重新輸出）——如需要 PNG 可從此重新輸出 |
 | `SSIF_Architecture_caption.txt` | 建議的圖說文字 |
+
+> 高解析度 PNG 輸出檔（`SSIF_Architecture.png`）已從本目錄移除，PDF 與
+> HTML 原始檔仍保留。
 
 ## 建議放置位置
 

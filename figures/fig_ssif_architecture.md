@@ -37,14 +37,20 @@ for the backbone, and the loss weights match
 [`05_submit_Multitask_Optimization_and_Evaluation_Framework.md`](../05_submit_Multitask_Optimization_and_Evaluation_Framework.md)
 exactly (0.45 / 0.35 / 0.15 / 0.05).
 
-## Relationship to `SSIF_Architecture.png`
+## Relationship to `SSIF_Architecture.pdf`
+
+> **Update:** `SSIF_Architecture.png` has been removed from this
+> directory to resolve the duplication noted below. The comparison is
+> kept for reference, against the remaining `SSIF_Architecture.pdf`
+> (same content, vector format; re-render from
+> `SSIF_Architecture_source.html` if a raster is needed again).
 
 This directory also contains a second, independently drawn architecture
-figure — [`SSIF_Architecture.png`](SSIF_Architecture.png) (see
+figure — [`SSIF_Architecture.pdf`](SSIF_Architecture.pdf) (see
 [`SSIF_Architecture.md`](SSIF_Architecture.md)). The two are largely
 redundant:
 
-| | fig_ssif_architecture.png | SSIF_Architecture.png |
+| | fig_ssif_architecture.png | SSIF_Architecture.pdf |
 |---|---|---|
 | Style | Colorful, per-stage color blocks | Monochrome, print/submission style, grayscale-safe |
 | Loss terms shown | Yes (all 4, with weights) | No (stops at the two output heads) |
@@ -52,7 +58,7 @@ redundant:
 | Print-readiness (B&W, hatch pattern) | No | Yes |
 
 If only one architecture figure is kept in the final manuscript, consider
-merging the Joint Loss row from this figure into `SSIF_Architecture.png`
+merging the Joint Loss row from this figure into `SSIF_Architecture.pdf`
 (or citing loss weights in the caption/body text instead, as
 `05_submit_Multitask_Optimization_and_Evaluation_Framework.md` already
 does in prose).

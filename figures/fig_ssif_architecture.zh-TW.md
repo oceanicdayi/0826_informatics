@@ -35,14 +35,19 @@
 [`05_submit_Multitask_Optimization_and_Evaluation_Framework.md`](../05_submit_Multitask_Optimization_and_Evaluation_Framework.md)
 完全一致（0.45／0.35／0.15／0.05）。
 
-## 與 `SSIF_Architecture.png` 的關係
+## 與 `SSIF_Architecture.pdf` 的關係
+
+> **更新：** `SSIF_Architecture.png` 已從本目錄移除，以解決下方所述的
+> 重複問題。以下比較保留作為紀錄，改對照現存的 `SSIF_Architecture.pdf`
+> （內容相同，向量格式；如需點陣圖可從 `SSIF_Architecture_source.html`
+> 重新輸出）。
 
 本目錄還有另一張獨立繪製的架構圖——
-[`SSIF_Architecture.png`](SSIF_Architecture.png)（詳見
+[`SSIF_Architecture.pdf`](SSIF_Architecture.pdf)（詳見
 [`SSIF_Architecture.zh-TW.md`](SSIF_Architecture.zh-TW.md)）。兩者內容
 大致重疊：
 
-| | fig_ssif_architecture.png | SSIF_Architecture.png |
+| | fig_ssif_architecture.png | SSIF_Architecture.pdf |
 |---|---|---|
 | 風格 | 彩色，各階段不同顏色方塊 | 單色系，投稿印刷風格，灰階可辨識 |
 | 是否呈現損失項 | 是（4 項皆有，含權重） | 否（僅到兩個輸出頭為止） |
@@ -50,7 +55,7 @@
 | 印刷友善度（黑白、網底圖樣） | 否 | 是 |
 
 若最終論文只保留一張架構圖，可考慮將此圖的「聯合損失」列合併進
-`SSIF_Architecture.png`（或如
+`SSIF_Architecture.pdf`（或如
 `05_submit_Multitask_Optimization_and_Evaluation_Framework.md` 目前做法，
 改以正文文字說明損失權重）。
 

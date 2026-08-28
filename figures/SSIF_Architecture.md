@@ -1,4 +1,4 @@
-# SSIF_Architecture.png / .pdf — Submission Architecture Figure
+# SSIF_Architecture.pdf — Submission Architecture Figure
 
 **Type:** Vertical block-flow diagram, monochrome + two-accent
 (blue/maroon) print-safe design, purpose-built for manuscript submission
@@ -32,10 +32,12 @@ Suggested caption text is in
 
 | File | Purpose |
 |---|---|
-| `SSIF_Architecture.png` | high-res raster (~350 dpi) |
 | `SSIF_Architecture.pdf` | vector, for LaTeX/print |
-| `SSIF_Architecture_source.html` | editable source (open in browser or re-render with headless Chromium) |
+| `SSIF_Architecture_source.html` | editable source (open in browser or re-render with headless Chromium) — re-render this to regenerate a PNG if one is needed again |
 | `SSIF_Architecture_caption.txt` | suggested figure caption |
+
+> The high-res PNG export (`SSIF_Architecture.png`) has been removed
+> from this directory; the PDF and HTML source remain.
 
 ## Suggested manuscript placement
 

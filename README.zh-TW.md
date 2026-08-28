@@ -29,10 +29,10 @@ Forecaster，逐秒地震強度預測器）論文的各章節草稿。檔案編�
 索引與審閱時發現的兩個資料一致性問題（兩張圖使用未對齊的 n=44 vs n=50 事件
 群組、以及重複的架構圖）請見 [`figures/README.md`](figures/README.md)。
 
-投稿用架構圖（[`SSIF_Architecture.pdf`](figures/SSIF_Architecture.pdf) /
-[`.png`](figures/SSIF_Architecture.png)，原始檔在
-[`SSIF_Architecture_source.html`](figures/SSIF_Architecture_source.html)，
-圖說在
+投稿用架構圖（[`SSIF_Architecture.pdf`](figures/SSIF_Architecture.pdf) —
+向量圖；PNG 點陣輸出已移除，如需要可從
+[`SSIF_Architecture_source.html`](figures/SSIF_Architecture_source.html)
+重新輸出，圖說在
 [`SSIF_Architecture_caption.txt`](figures/SSIF_Architecture_caption.txt)）
 對應
 [04_submit_Model_Architecture_and_Input_Representation.md](04_submit_Model_Architecture_and_Input_Representation.md)
