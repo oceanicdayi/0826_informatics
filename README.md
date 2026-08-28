@@ -21,3 +21,5 @@ files are numbered to reflect the paper's logical reading order:
 | 11 | [11_submit_Complementary_Failure_Modes_and_Generalization.md](11_submit_Complementary_Failure_Modes_and_Generalization.md) | Results — complementary failure modes and generalization |
 | 12 | [12_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md](12_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md) | Discussion — speed–reliability tradeoff and operational window selection |
 | 13 | [13_submit_Operational_Integration_and_Tradeoff.md](13_submit_Operational_Integration_and_Tradeoff.md) | Conclusions — operational integration and the anticipatory–confirmatory tradeoff |
+
+> 中文版: [README.zh-TW.md](README.zh-TW.md)
