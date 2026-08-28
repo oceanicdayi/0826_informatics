@@ -22,25 +22,25 @@ system fails to catch alone is caught by the other.
 
 ## Cross-reference
 
-Qualitatively matches the complementarity narrative in
-[`11_submit_Complementary_Failure_Modes_and_Generalization.md`](../11_submit_Complementary_Failure_Modes_and_Generalization.md)
+Qualitatively matches the complementarity narrative in the "Region-Based
+Detection and eBEAR Complementarity" subsection of
+[`05_submit_Results.md`](../05_submit_Results.md)
 and the abstract's "SSIF detected 2 region-positive events that eBEAR
 missed" — but the **numbers don't line up exactly**, see below.
 
 ## ⚠ Data-consistency note (n=44 vs n=50/39)
 
 This figure and `fig_alert_timeline.png` both use a cohort of **n=44**
-events. Every manuscript section that discusses the SSIF/eBEAR
-comparison (
-[`10_submit_Region_Based_Detection_and_Complementarity.md`](../10_submit_Region_Based_Detection_and_Complementarity.md),
-[`11_submit_Complementary_Failure_Modes_and_Generalization.md`](../11_submit_Complementary_Failure_Modes_and_Generalization.md),
-the abstract) instead uses **50 matched testing events (39
-region-positive, 11 region-negative)**, and `fig_region_contingency.png`
-matches that 50/39/11 figure exactly.
+events. Every part of the manuscript that discusses the SSIF/eBEAR
+comparison (the "Region-Based Detection and eBEAR Complementarity"
+subsection of [`05_submit_Results.md`](../05_submit_Results.md) and the
+abstract) instead uses **50 matched testing events (39 region-positive,
+11 region-negative)**, and `fig_region_contingency.png` matches that
+50/39/11 figure exactly.
 
 Two numbers that should be reconcilable but currently aren't, at face
 value:
-- Abstract / 11_: eBEAR misses **2** region-positive events → SSIF
+- Abstract / 05_: eBEAR misses **2** region-positive events → SSIF
   catches those 2 that eBEAR missed.
 - This figure at EW20+: **SSIF only = 3**, **eBEAR only = 0**.
 
@@ -61,7 +61,8 @@ adding a note explaining what distinguishes the 44-event cohort.
 
 ## Suggested manuscript placement
 
-Results section, alongside 10_/11_ — but only after the n=44 vs n=50
+Results section (05_), alongside the "Region-Based Detection and eBEAR
+Complementarity" subsection — but only after the n=44 vs n=50
 discrepancy above is resolved.
 
 > 中文版: [fig_detection_categories.zh-TW.md](fig_detection_categories.zh-TW.md)

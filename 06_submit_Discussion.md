@@ -1,4 +1,6 @@
-# Speed–Reliability Tradeoff and Operational Window Selection
+# Discussion
+
+## Speed–Reliability Tradeoff and Operational Window Selection
 
 The results confirm a fundamental tradeoff in single-station intensity forecasting: longer observation windows improve probability of detection (POD) and F1 but progressively shift the model's role from anticipatory warning to post-threshold confirmation. Anticipatory positive recall measures the fraction of stations that will ultimately reach intensity ≥4 but have not yet observed ≥4 at the prediction time—the persistence baseline cannot detect these by construction. At the 10-second window, SSIF correctly anticipates 8.8% of 3,102 pre-threshold stations; by the 40-second window, anticipatory recall rises to 43.8%, but the pool of pre-threshold stations shrinks to 630 because most stations that will reach ≥4 have already locally observed it. The model's anticipatory ability improves with more data, yet the opportunity to provide advance warning diminishes because the shaking has already arrived at most stations.
 

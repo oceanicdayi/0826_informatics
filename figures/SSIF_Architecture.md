@@ -23,8 +23,9 @@ figure that does.
 
 ## Cross-reference
 
-Built directly from
-[`04_submit_Model_Architecture_and_Input_Representation.md`](../04_submit_Model_Architecture_and_Input_Representation.md).
+Built directly from the "Model Architecture and Input Representation"
+subsection of
+[`03_submit_Method.md`](../03_submit_Method.md).
 Suggested caption text is in
 [`SSIF_Architecture_caption.txt`](SSIF_Architecture_caption.txt).
 
@@ -41,7 +42,7 @@ Suggested caption text is in
 
 ## Suggested manuscript placement
 
-Method section (04_), as the primary architecture figure — this is the
+Method section (03_), as the primary architecture figure — this is the
 submission-ready version; prefer it over `fig_ssif_architecture.png`
 unless the loss-weight breakdown needs to be shown visually rather than
 in prose.

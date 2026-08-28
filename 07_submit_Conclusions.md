@@ -1,4 +1,6 @@
-# Operational Integration and the Anticipatory–Confirmatory Tradeoff
+# Conclusions
+
+## Operational Integration and the Anticipatory–Confirmatory Tradeoff
 
 The central insight of this study is that partial station-level intensity sequences contain two qualitatively different types of information whose balance shifts with observation time. Anticipatory information, extracted from the evolving intensity trajectory before the threshold is locally observed, enables the model to predict future shaking that the persistence baseline cannot detect by construction. Confirmatory information, available once the station has observed ≥4, enables reliable verification of arrived shaking. At short windows (10–15 seconds), most ≥4 stations have not yet locally observed ≥4, so detections are predominantly anticipatory—genuine predictions from sparse P-wave-dominated sequences with low POD but meaningful advance warning. At long windows (35–40 seconds), most ≥4 stations have already crossed the threshold, so detections are predominantly confirmatory—near-perfect POD but diminishing lead time. The 20-second window represents the optimal balance, where region-based event-level POD reaches 1.000 while the median lead time remains 6 seconds with 60.1% of detections providing ≥5 seconds of advance warning.
 

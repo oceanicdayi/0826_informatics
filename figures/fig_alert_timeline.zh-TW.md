@@ -17,12 +17,10 @@ eBEAR 反應最慢的事件，最下方為最快的）。
 
 與 [`fig_detection_categories.png`](fig_detection_categories.png) 使用
 相同的 44 事件群組——關於此群組與
-[`10_submit_Region_Based_Detection_and_Complementarity.md`](../10_submit_Region_Based_Detection_and_Complementarity.md)、
-[`11_submit_Complementary_Failure_Modes_and_Generalization.md`](../11_submit_Complementary_Failure_Modes_and_Generalization.md)
-中 50 事件／39 區域正例群組之間關係的未解問題，詳見
+[`05_submit_Results.md`](../05_submit_Results.md)「區域式偵測與 eBEAR
+互補性」子章節中 50 事件／39 區域正例群組之間關係的未解問題，詳見
 [`fig_detection_categories.zh-TW.md`](fig_detection_categories.zh-TW.md)。
-eBEAR 延遲範圍（約 6–33 秒，中位數明顯低於 20 秒）大致符合
-[`11_submit_Complementary_Failure_Modes_and_Generalization.md`](../11_submit_Complementary_Failure_Modes_and_Generalization.md)
+eBEAR 延遲範圍（約 6–33 秒，中位數明顯低於 20 秒）大致符合同一子章節
 中「中位數約 15 秒」的說法。
 
 ## 觀察重點
@@ -38,14 +36,15 @@ eBEAR 延遲範圍（約 6–33 秒，中位數明顯低於 20 秒）大致符�
   eBEAR 規模估計信心較低的事件），但對應的圖例標籤遺失了——建議在
   納入投稿前檢查原始繪圖程式，因為未說明的視覺差異容易讓審稿人困惑。
 - 清單中的 `20240403_0920` 這筆事件幾乎可以確定就是 2024-04-03 M7.2
-  花蓮主震——但其 eBEAR 延遲長條（約 26 秒）與案例研究文件中報告的
+  花蓮主震——但其 eBEAR 延遲長條（約 26 秒）與
+  [`05_submit_Results.md`](../05_submit_Results.md) 文末案例研究中報告的
   **9.4 秒**首次警報時間不一致。若確認是同一事件，代表兩張圖描述的是
   不同的東西（例如此圖可能呈現的是「較晚、經修正後」的 eBEAR 警報，
   而非首次警報），建議釐清後在圖說中說明。
 
 ## 建議放置位置
 
-Results 或 Discussion 章節，作為
-[`13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md`](../13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md)
+Results（05_）或 Discussion（06_）章節，作為
+[`06_submit_Discussion.md`](../06_submit_Discussion.md)
 中「SSIF 較慢但 eBEAR 的速度伴隨區域涵蓋缺口」論點的佐證——但需先解決
 上述 n=44 群組定義與長條底色未說明的問題。

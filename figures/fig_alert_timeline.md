@@ -22,13 +22,11 @@ Same 44-event cohort as
 [`fig_detection_categories.png`](fig_detection_categories.png) — see
 [`fig_detection_categories.md`](fig_detection_categories.md) for the
 open question about how this cohort relates to the 50-event / 39
-region-positive cohort used in
-[`10_submit_Region_Based_Detection_and_Complementarity.md`](../10_submit_Region_Based_Detection_and_Complementarity.md)
-and
-[`11_submit_Complementary_Failure_Modes_and_Generalization.md`](../11_submit_Complementary_Failure_Modes_and_Generalization.md).
-The eBEAR delay range (~6–33 s, median well under 20 s) is broadly
-consistent with the "median ~15 s" figure quoted in
-[`11_submit_Complementary_Failure_Modes_and_Generalization.md`](../11_submit_Complementary_Failure_Modes_and_Generalization.md).
+region-positive cohort used in the "Region-Based Detection and eBEAR
+Complementarity" subsection of
+[`05_submit_Results.md`](../05_submit_Results.md). The eBEAR delay range
+(~6–33 s, median well under 20 s) is broadly consistent with the
+"median ~15 s" figure quoted in that same subsection.
 
 ## Observations
 
@@ -51,9 +49,9 @@ consistent with the "median ~15 s" figure quoted in
   reviewers.
 - The event `20240403_0920` in this list is almost certainly the
   2024-04-03 M7.2 Hualien mainshock — its eBEAR delay bar (~26 s) is
-  inconsistent with the case-study's reported **9.4 s** first-alert time
-  in
-  [`12_submit_case_study_hualien_m72.md`](../12_submit_case_study_hualien_m72.md).
+  inconsistent with the case study's reported **9.4 s** first-alert time
+  in the case study at the end of
+  [`05_submit_Results.md`](../05_submit_Results.md).
   If this row is the same event, the two figures are describing
   different things (e.g. this chart may show a *later, revised* eBEAR
   alert rather than the first alert) and the discrepancy should be
@@ -61,9 +59,9 @@ consistent with the "median ~15 s" figure quoted in
 
 ## Suggested manuscript placement
 
-Results or Discussion, as supporting evidence for the "SSIF is slower
-but eBEAR's speed comes with regional coverage gaps" argument in
-[`13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md`](../13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md) —
+Results (05_) or Discussion (06_), as supporting evidence for the "SSIF
+is slower but eBEAR's speed comes with regional coverage gaps" argument
+in [`06_submit_Discussion.md`](../06_submit_Discussion.md) —
 contingent on resolving the n=44 cohort question and the unlabeled bar
 shading first.
 
