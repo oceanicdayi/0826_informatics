@@ -66,3 +66,5 @@ but eBEAR's speed comes with regional coverage gaps" argument in
 [`13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md`](../13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md) —
 contingent on resolving the n=44 cohort question and the unlabeled bar
 shading first.
+
+> 中文版: [fig_alert_timeline.zh-TW.md](fig_alert_timeline.zh-TW.md)

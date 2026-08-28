@@ -1,0 +1,47 @@
+# fig_region_contingency.png — 區域式事件偵測列聯表（中文版）
+
+**類型：** 堆疊長條圖，每個早期時窗（EW10…EW40）一根長條，共 50 個配對
+測試事件（39 個區域正例、11 個區域負例）。
+
+## 圖片內容
+
+依 47 個參考點的區域式偵測準則（30 km 半徑內 ≥3 個共站測站 I≥4），每個
+時窗下四種列聯結果的數量：
+
+| 時窗 | TP | FP | FN | TN | POD | Precision |
+|---|---|---|---|---|---|---|
+| EW10 | 34 | 0 | 5 | 11 | 0.872 | 1.000 |
+| EW15 | 37 | 1 | 2 | 10 | 0.949 | 0.974 |
+| EW20 | 39 | 3 | 0 | 8 | 1.000 | 0.929 |
+| EW25 | 39 | 0 | 0 | 11 | 1.000 | 1.000 |
+| EW30 | 39 | 0 | 0 | 11 | 1.000 | 1.000 |
+| EW35 | 39 | 0 | 0 | 11 | 1.000 | 1.000 |
+| EW40 | 39 | 0 | 0 | 11 | 1.000 | 1.000 |
+
+（TN 為圖中未逐一標示時，以 50 − TP − FP − FN 推算所得。）
+
+## 對應章節
+
+這些數字（10 秒時 34/39、20 秒起 POD 達 1.000、25 秒起精確率與 POD 皆
+達 1.000）與
+[`10_submit_Region_Based_Detection_and_Complementarity.md`](../10_submit_Region_Based_Detection_and_Complementarity.md)
+逐項吻合，「39 個區域正例／11 個區域負例」也與該文件及
+[`11_submit_Complementary_Failure_Modes_and_Generalization.md`](../11_submit_Complementary_Failure_Modes_and_Generalization.md)
+一致。
+
+## 觀察重點
+
+- EW20 是唯一出現誤報（FP=3）而非漏報的時窗——SSIF 在此時窗從「仍漏掉
+  0 個事件」（EW15：FN=2）轉為「偵測到全部事件，但對 3 個邊界區域過度
+  觸發」（EW20），之後從 EW25 起兩種錯誤都消失。這正是
+  [`13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md`](../13_submit_Speed_Reliability_Tradeoff_and_Operational_Window.md)
+  中定性描述的精確率下滑、屬於作業時窗取捨的一環。
+- **此圖 n=50，而 `fig_alert_timeline.png` 與
+  `fig_detection_categories.png` 用的是 n=44**——群組大小不一致的
+  說明請見 [`fig_detection_categories.zh-TW.md`](fig_detection_categories.zh-TW.md)。
+
+## 建議放置位置
+
+Results 章節——作為
+[`10_submit_Region_Based_Detection_and_Complementarity.md`](../10_submit_Region_Based_Detection_and_Complementarity.md)
+的主要佐證圖。

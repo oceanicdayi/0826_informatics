@@ -50,3 +50,5 @@ matches the same file and
 Results section — pairs with
 [`10_submit_Region_Based_Detection_and_Complementarity.md`](../10_submit_Region_Based_Detection_and_Complementarity.md)
 as its primary supporting figure.
+
+> 中文版: [fig_region_contingency.zh-TW.md](fig_region_contingency.zh-TW.md)

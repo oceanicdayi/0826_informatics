@@ -1,0 +1,59 @@
+# fig_detection_categories.png — SSIF 與 eBEAR 互補性偵測分類（中文版）
+
+**類型：** 堆疊長條圖，每個早期時窗（EW10…EW40）一根長條，**n=44** 個
+I≥4 事件，分為四類：皆偵測到／僅 SSIF／僅 eBEAR／皆漏失。
+
+## 圖片內容
+
+| 時窗 | 皆偵測到 | 僅 SSIF | 僅 eBEAR | 皆漏失 |
+|---|---|---|---|---|
+| EW10 | 36 | 2 | 5 | 1 |
+| EW15 | 39 | 2 | 2 | 1 |
+| EW20 | 41 | 3 | 0 | 0 |
+| EW25 | 41 | 3 | 0 | 0 |
+| EW30 | 41 | 3 | 0 | 0 |
+| EW35 | 41 | 3 | 0 | 0 |
+| EW40 | 41 | 3 | 0 | 0 |
+
+從 EW20 起，數字固定為 41（皆偵測到）+ 3（僅 SSIF）= 44，僅 eBEAR 與
+皆漏失兩類皆為零——也就是說任一系統單獨漏掉的事件，都會被另一系統
+補上。
+
+## 對應章節
+
+在定性描述上與
+[`11_submit_Complementary_Failure_Modes_and_Generalization.md`](../11_submit_Complementary_Failure_Modes_and_Generalization.md)
+以及摘要中「SSIF 偵測到 2 個 eBEAR 漏掉的區域正例事件」相符，**但數字
+對不上**，詳見下方說明。
+
+## ⚠ 資料一致性問題（n=44 vs n=50/39）
+
+此圖與 `fig_alert_timeline.png` 都使用 **n=44** 的事件群組。但論文中
+所有討論 SSIF/eBEAR 比較的章節（
+[`10_submit_Region_Based_Detection_and_Complementarity.md`](../10_submit_Region_Based_Detection_and_Complementarity.md)、
+[`11_submit_Complementary_Failure_Modes_and_Generalization.md`](../11_submit_Complementary_Failure_Modes_and_Generalization.md)、
+摘要）都使用 **50 個配對測試事件（39 個區域正例、11 個區域負例）**，
+而 `fig_region_contingency.png` 也正好使用 50/39/11 這組數字。
+
+兩個理論上應可對應、但目前對不上的數字：
+- 摘要／11_：eBEAR 漏掉 **2** 個區域正例事件 → SSIF 偵測到這 2 個
+  eBEAR 漏掉的事件。
+- 此圖 EW20 之後：**僅 SSIF = 3**，**僅 eBEAR = 0**。
+
+44 與 50 相差 6 個事件，且「僅 SSIF」（3）與文字敘述的「SSIF 偵測到
+2 個 eBEAR 漏掉的事件」也對不上。可能的解釋（尚未確認——建議在正式
+使用此圖前，對照原始分析程式／資料釐清）：
+- n=44 可能是不同的分母，例如僅計入 eBEAR 有發出任何警報的事件
+  （排除部分區域負例或未配對事件），而非完整的 50 個配對／39 個正例
+  事件。
+- 此處「僅 SSIF」／「僅 eBEAR」可能是在**事件層級**、以不同於區域式
+  （47 參考點、≥3 測站）準則所定義，而非套用產生 50/39/11 數字的
+  同一套準則。
+
+建議在納入投稿前，以與其他章節相同的 50 事件／39 正例群組重新產出此
+圖，或補充說明 n=44 這個群組的定義。
+
+## 建議放置位置
+
+Results 章節，與 10_/11_ 並列——但需先解決上述 n=44 與 n=50 的落差
+問題。

@@ -43,3 +43,5 @@ station coverage described in
 Best suited as a **Data** section figure (after 07_), to establish the
 spatial/temporal representativeness of the train/val/test split before
 the Results sections rely on it.
+
+> 中文版: [fig_station_event_map.zh-TW.md](fig_station_event_map.zh-TW.md)

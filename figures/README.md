@@ -43,4 +43,4 @@ supports, and any issues found while reviewing it.
    `fig_case_study_hualien_m72.png`'s numbers match
    `12_submit_case_study_hualien_m72.md` line for line.
 
-> 中文摘要見 [README.zh-TW.md](README.zh-TW.md) 的「圖表」章節。
+> 中文版: [README.zh-TW.md](README.zh-TW.md)
