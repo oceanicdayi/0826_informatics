@@ -31,6 +31,16 @@ reached yet; Results ends with a one-sentence pointer to the Case Study
 chapter that follows it. Abstract (01) and Introduction (02) are
 untouched throughout.
 
+## Consistency Review
+
+[`CONSISTENCY_REVIEW.md`](CONSISTENCY_REVIEW.md) cross-checks all 10
+submission files against each other for numbers and claims that don't
+agree, plus unclear or undefined wording — including a precision figure
+in the abstract that contradicts the Results chapter, an arithmetic
+error in the Data chapter's validation-split subdivision, and a stale
+cross-reference left over from the most recent chapter split. Ends with
+a prioritized next-steps list.
+
 ## Figures
 
 All manuscript figures live in [`figures/`](figures/), each with a
