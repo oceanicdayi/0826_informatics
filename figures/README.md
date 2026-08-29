@@ -2,7 +2,9 @@
 
 Every image in this directory has a companion `.md` file (same basename)
 with a close reading of what it shows, which manuscript section it
-supports, and any issues found while reviewing it.
+supports, and any issues found while reviewing it. For a status snapshot
+of which figures are actually embedded in the manuscript today and what
+to do next, see [`USAGE_AND_NEXT_STEPS.md`](USAGE_AND_NEXT_STEPS.md).
 
 | Image | Analysis | Summary |
 |---|---|---|
